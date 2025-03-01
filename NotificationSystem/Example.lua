@@ -10,4 +10,6 @@
 --LeftBottom (Left Bottom of the Screen)
 
 --255, 255, 255 is the title color. (you can find these colors at: https://htmlcolorcodes.com)
-createNotification("Notification Example", "This is a notification message.", 5, LeftBottom, 255, 255, 255)
+local createNotification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknownlodfc/Zephyr/refs/heads/main/NotificationSystem/Notification.lua"))()
+
+createNotification("Right Top", "This is a notification message.", 5, RightTop, 255, 255, 255)
