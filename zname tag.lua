@@ -1,7 +1,7 @@
 local textChatService = game:GetService("TextChatService")
 
-local playerNameToCustomize = "0zephyr_x0"
-local customPrefix = "[Dick]"
+local playerNameToCustomize = "Username"
+local customPrefix = "[Admin]"
 local customColor = "#00ffee"
 local useCustomColor = true
 
